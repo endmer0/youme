@@ -1,0 +1,257 @@
+body {
+   background-color:#333;
+}
+
+
+.logo img {
+   width: 180px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color:#333
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: rgb(171, 171, 173);
+    color:white;
+  }
+  .menu {
+    display: flex;
+    gap: 250px;
+    background-color: #333;
+  }
+ .light-night-panel  a {
+    text-decoration: none;
+   
+  }
+  .night {
+    margin-left: 12px;
+    
+  }
+  .menu {
+    border:5px solid rgb(171, 171, 173);
+  }
+  nav  {
+    margin-top: 12px;
+  }
+  .light-night-panel {
+   margin-top: 20px;
+  
+  }
+  .go-to-channel {
+   margin-left: 5px;
+   color:#157936
+  }
+ .info-img {
+    width: 500px ;
+    height: 400px;
+    margin-left: 100px;
+    border: 5px solid #333;
+
+ }
+ .info-text {
+
+float:left
+ }
+ 
+ .info {
+    margin: 50px;
+
+ }
+ .h4-info {
+    color:rgb(171, 171, 173);
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+ }
+
+ .h1-info {
+    font-family: Arial, sans-serif;
+    font-size: 52px;
+    color:white
+ }
+
+ .h5-info {
+    font-family: Arial, sans-serif;
+    filter: blur(1px);
+    color:white
+ }
+
+ .button-info {
+    font-family: Arial, sans-serif;
+    
+    background-image:url(button-img1.jpg);
+        border: none; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block;
+        font-size: 16px; 
+        margin: 4px 2px; 
+        cursor: pointer; 
+        border-radius: 10px; 
+        transition-duration: 0.4s; 
+        
+ }
+
+
+ .button-info:hover {
+  background-image: url(button-img2.jpg); 
+}
+
+.my-services-h1 {
+
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+    color:white
+
+
+}
+.page2 {
+
+    margin:256px 50px 50px 50px;
+}
+.services {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 64px;
+}
+.montaj-service {
+
+    margin-left: 50px;
+    background-color: rgb(171, 171, 173);
+    padding:   20px 50px 50px 50px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+}
+.montaj-service:hover {
+    background-color:#157936
+}
+.web-admin-service {
+    margin-left: 50px;
+    background-color: rgb(171, 171, 173);
+    padding:   20px 50px 50px 50px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+}
+.web-admin-service:hover{
+    background-color:#157936
+}
+.web-creator-service {
+    background-color: rgb(171, 171, 173);
+    padding:   20px 50px 50px 50px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+}
+.web-creator-service:hover {
+    background-color:#157936
+}
+.services-button {
+    font-family: Arial, sans-serif;
+    
+    background-image:url(button-img1.jpg);
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 20px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition-duration: 0.4s; 
+margin-top: 58px;
+}
+.services-button:hover{
+    background-image: url(button-img2.jpg); 
+}
+.montaj-img {
+    width: 64px;
+    height: 64px;
+}
+.creator-img{
+    width: 64px;
+    height: 64px;
+}
+.admin-img{
+    width: 64px;
+    height: 64px;
+}
+.ad-container {
+  width: 300px; /* Reklama qutisining o'lchami */
+  height: 250px; /* Reklama qutisining balandligi */
+  border: 1px solid #ccc; /* Cheklangan qutining chekish rangi */
+}
+
+.ad-container img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* Rasmlarni blok elementi qilib chiqarish */
+}
+#ad {
+  margin: 200px 480px 20px 480px;
+}
+footer {
+  background-color:black
+}
+.change-language-h6 {
+  padding-top: 66px;
+  text-align: center;
+  font-size: 16px;
+  color: #ccc;
+}
+.change-language {
+  height: 100px;
+text-align: center;
+}
+.en {
+  text-decoration: none;
+  color:#157936;
+}
+.uz {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #157936;
+}
+.ru {
+  text-decoration: none;
+  color: #157936;
+  margin-left: 20px;
+}
+.copyright {
+  color: #ccc;
+  padding-bottom: 20px;
+}
